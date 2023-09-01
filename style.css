@@ -1,0 +1,698 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.firstmenu{
+    width:auto ;
+    /* height: 10%; */
+    font-size: 0.8em;
+    padding: 12px;
+    /* padding-left: 10px; */
+    /* padding: 0.8em; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 37, 0.836);
+    align-items: flex-start;
+    /* justify-content: space-around; */
+    color: whitesmoke;
+    
+    
+}
+.firstmenu i{
+    color: cyan
+}
+.firstmenu div a{
+    color: whitesmoke;
+    padding:8px;
+    
+    
+}
+.firstmenu div {
+    color: whitesmoke;
+   
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right:1px  cyan solid;
+    
+}
+a{
+    color: rgb(33, 33, 241);
+    text-decoration: underline;
+    
+}
+
+.secondmenu a{
+    color: black;
+    text-decoration: none;
+}
+.secondmenu nav ul{
+  background-color:white;
+    width:auto ;
+    padding: 0px;
+    font-size: 1em;
+    /* padding-right: 10px; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.secondmenu nav ul li{
+   padding: 20px;
+   padding-right: 30px;
+}
+
+
+
+.thirdmenu{
+
+    width: auto;
+    height: auto;
+    background-color: rgba(23, 23, 26, 0.877);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 50px;
+    margin: 30px 0px 0px 0px ;
+
+}
+.text h1{
+    font-size: 3em;
+    padding: 40px 0px 0px 10px;
+}
+.text p{
+
+    padding: 10px 0px 0px 10px;
+    line-height: 1.6;
+}
+
+.text button{
+    width: fit-content;
+    font-size: 16px;
+    margin:30px 0px 0px 10px;
+    padding: 15px;
+    background-color: rgb(31, 185, 134);
+    font-weight: bolder;
+    color: white;   
+    cursor: pointer;
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px; 
+}   
+
+
+.box form{
+    /* width: fit-content; */
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 40px 51px 10px;
+    padding: 10px;
+    border-radius: 15px;
+   
+}
+
+.box form div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+h2{
+    font-weight: 600;
+    padding: 10px;
+}
+
+ 
+
+.box form input{
+    
+    border-width: 1px;
+    border-color: rgb(201, 195, 195);
+    border-radius: 20px;
+    border-style: solid;
+    padding: 10px 10px 10px 10px ;
+    margin: 10px 0px 0px 0px ;
+}
+
+.box .check {
+    display:flex;
+    flex-direction: row;
+}
+.box .check input {
+   
+    font-size: 3em;
+    padding: 20px;
+    margin: -40px 0px 0px 0px ;
+    
+
+}
+.box .check label{
+    margin: -10px 0px 0px 0px ;
+    padding: 10px;
+} 
+
+.box button{
+    width: fit-content;
+    margin: 10px 0px 10px 20px ;
+    background-color: rgb(2, 2, 2);
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+    border-style: none;
+    font-weight: bolder;
+    border-radius: 20px;   
+    cursor: pointer;
+    padding: 10px 25px 10px 25px; 
+
+}
+
+
+.fourmenu{
+
+    width: auto;
+    /* border: 2px solid black; */
+    background-color: rgb(194, 236, 226);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+    /* text-align: center; */
+    justify-content: space-between;
+
+}
+
+.fourmenu div{
+    width: auto;
+    height: auto;
+    margin: 40px 0px 20px 0px;   
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.fourmenu div h3 + p{
+    padding: 20px 0px 10px 0px;
+
+}
+.fourmenu div p{
+    line-height: 1.6;
+    text-align:justify;
+}
+
+
+
+
+
+@media only screen and (max-width:700px){
+
+
+
+    .secondmenu a{
+        color: black;
+        text-decoration: none;
+    }
+    .secondmenu nav ul{
+      background-color:white;
+        width:auto ;
+        padding: 0px;
+        font-size: 0.9em;
+        /* padding-right: 10px; */
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        justify-content: space-around;
+        margin: 0px 0px 0px 30px;
+    
+    }
+    
+    .secondmenu nav ul li{
+       padding: 10px 10px 10px 10px;
+       padding-right: 30px;
+    }
+
+
+
+
+    .thirdmenu{
+
+        width: auto;
+        height: auto;
+        background-color: rgba(23, 23, 26, 0.877);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: white;
+        padding: 10px 10px 10px 10px;
+    
+    }
+
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        padding-top: 0px;
+        margin: 0px 0px 0px 30px ;
+    
+    }
+    .text h1{
+        font-size: 3em;
+        padding: 40px 0px 0px 10px;
+    }
+    .text p{
+    
+        padding: 10px 0px 0px 10px;
+        line-height: 1.6;
+    }
+
+    .box form{
+        /* width: fit-content; */
+        background-color: white;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        margin: 40px 60px 51px 30px;
+        padding: 10px;
+        border-radius: 15px;
+
+    }
+        
+.box form div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+h2{
+    font-weight: 600;
+    padding: 10px;
+}
+
+ 
+
+.box form input{
+    
+    border-width: 1px;
+    border-color: rgb(201, 195, 195);
+    border-radius: 20px;
+    border-style: solid;
+    padding: 10px 10px 10px 10px ;
+    margin: 10px 0px 0px 0px ;
+}
+
+.box .check {
+    display:flex;
+    flex-direction: row;
+}
+.box .check input {
+   
+    font-size: 3em;
+    padding: 20px;
+    margin: -40px 0px 0px 0px ;
+    
+
+}
+.box .check label{
+    margin: -10px 0px 0px 0px ;
+    padding: 10px;
+} 
+
+.box button{
+    width: fit-content;
+    margin: 10px 0px 10px 20px ;
+    background-color: rgb(2, 2, 2);
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+    border-style: none;
+    font-weight: bolder;
+    border-radius: 20px;   
+    cursor: pointer;
+    padding: 10px 25px 10px 25px; 
+
+}
+}
+
+
+@media only screen and (max-width:630px){
+
+
+    .secondmenu a{
+        color: black;
+        text-decoration: none;
+    }
+    .secondmenu nav ul{
+      background-color:white;
+        width:auto ;
+        padding: 0px;
+        font-size: 1em;
+        /* padding-right: 10px; */
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0px 0px 0px 0px;
+    
+    }
+    
+    .secondmenu nav ul li{
+       padding: 10px 10px 10px 10px;
+       padding-right: 30px;
+    }
+
+}
+
+
+@media only screen and (max-width:550px){
+
+
+
+
+    .firstmenu{
+        width:auto ;
+        /* height: 10%; */
+        font-size: 0.8em;
+
+        padding: 12px;
+        /* padding-left: 10px; */
+        /* padding: 0.8em; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: rgba(0, 0, 37, 0.836);
+        align-items: flex-start;
+        /* justify-content: space-around; */
+        color: whitesmoke;
+        
+        
+    }
+
+
+    
+.firstmenu i{
+    color: cyan
+}
+.firstmenu div a{
+    color: whitesmoke;
+    padding:8px;
+    
+    
+}
+.firstmenu div {
+    color: whitesmoke;
+    padding: 0px 0px 5px 0px;
+    padding-left: 30px;
+    padding-right: 10px;
+    border-right: none;
+    
+}
+
+
+
+.secondmenu a{
+    color: black;
+    text-decoration: none;
+}
+.secondmenu nav ul{
+  background-color:white;
+    width:auto ;
+    padding: 0px;
+    margin: 0px 0px 0px 40px ;
+    font-size: 1em;
+    /* padding-right: 10px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* gap: 10px; */
+    justify-content: flex-start;
+
+}
+
+.secondmenu nav ul li{
+   padding: 10px;
+   padding-right: 30px;
+}
+
+
+.text h1{
+    font-size: 2.5em;
+    padding: 40px 0px 0px 10px;
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:505px){
+
+
+
+
+    .firstmenu{
+        width:auto ;
+        /* height: 10%; */
+        font-size: 0.8em;
+
+        padding: 12px;
+        /* padding-left: 10px; */
+        /* padding: 0.8em; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: rgba(0, 0, 37, 0.836);
+        align-items: flex-start;
+        /* justify-content: space-around; */
+        color: whitesmoke;
+        
+        
+    }
+
+   
+.firstmenu i{
+    color: cyan
+}
+.firstmenu div a{
+    color: whitesmoke;
+    padding:8px;
+    
+    
+}
+.firstmenu div {
+    color: whitesmoke;
+    padding: 0px 0px 5px 0px;
+    padding-left: 30px;
+    padding-right: 10px;
+    border-right: none;
+    
+}
+
+
+
+.secondmenu a{
+    color: black;
+    text-decoration: none;
+}
+.secondmenu nav ul{
+  background-color:white;
+    width:auto ;
+    padding: 0px;
+    margin: 0px 10px 0px 40px ;
+    font-size: 0.8em;
+    /* padding-right: 10px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+
+}
+
+.secondmenu nav ul li{
+   padding: 10px;
+   padding-right: 30px;
+}
+
+
+
+.thirdmenu{
+
+    width: auto;
+    height: auto;
+    background-color: rgba(23, 23, 26, 0.877);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 10px 10px 10px;
+
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    padding-top: 0px;
+    margin: 0px 0px 0px 30px ;
+
+}
+.text h1{
+    font-size: 2.5em;
+    padding: 40px 0px 0px 10px;
+}
+.text p{
+    margin: 10px 70px 0px 0px;
+    padding: 10px 0px 0px 10px;
+    line-height: 1.6;
+    /* border: 1px solid white; */
+    font-size: 14px;
+}
+
+.box form{
+    /* width: fit-content; */
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 50px 51px 30px;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+    
+.box form div{
+display: flex;
+flex-direction: column;
+padding: 10px;
+
+}
+h2{
+font-weight: 600;
+padding: 10px;
+}
+
+
+
+.box form input{
+
+border-width: 1px;
+border-color: rgb(201, 195, 195);
+border-radius: 20px;
+border-style: solid;
+padding: 10px 10px 10px 10px ;
+margin: 10px 0px 0px 0px ;
+}
+
+.box .check {
+display:flex;
+flex-direction: row;
+}
+.box .check input {
+
+font-size: 3em;
+padding: 20px;
+margin: -40px 0px 0px 0px ;
+
+
+}
+.box .check label{
+margin: -10px 0px 0px 0px ;
+padding: 10px;
+} 
+
+.box button{
+width: fit-content;
+margin: 10px 0px 10px 20px ;
+background-color: rgb(2, 2, 2);
+padding: 15px;
+color: white;
+font-size: 16px;
+border-style: none;
+font-weight: bolder;
+border-radius: 20px;   
+cursor: pointer;
+padding: 10px 25px 10px 25px; 
+
+}
+
+
+}
+
+}
+
+
+@media only screen and (max-width:505px){
+
+    .text p{
+        margin: 10px 70px 0px 0px;
+        padding: 10px 0px 0px 10px;
+        line-height: 1.8;
+        /* border: 1px solid white; */
+        font-size: 13px;
+    
+    }
+}
+
+
+@media only screen and (max-width:466px){
+
+    .secondmenu nav ul{
+        background-color:white;
+          width:auto ;
+          padding: 0px;
+          margin: 0px 10px 0px 40px ;
+          font-size: 0.8em;
+          /* padding-right: 10px; */
+          display: flex;
+          flex-direction: row;
+          /* flex-wrap: wrap; */
+          /* gap: 10px; */
+          justify-content: flex-start;
+      
+      }
+      
+      .secondmenu nav ul li{
+         padding: 10px;
+         padding-right: 30px;
+      }
+      
+      
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    padding-top: 0px;
+    margin: 0px 0px 0px 20px ;
+}
+.text h1{
+    font-size: 2.5em;
+    padding: 40px 0px 0px 10px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+}
