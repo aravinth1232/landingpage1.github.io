@@ -663,7 +663,7 @@ padding: 10px 25px 10px 25px;
         background-color:white;
           width:auto ;
           padding: 0px;
-          margin: 0px 10px 0px 40px ;
+          margin: 0px 20px 0px 40px ;
           font-size: 0.8em;
           /* padding-right: 10px; */
           display: flex;
@@ -676,7 +676,7 @@ padding: 10px 25px 10px 25px;
       
       .secondmenu nav ul li{
          padding: 10px;
-         padding-right: 30px;
+         padding-right: 10px;
       }
       
       
@@ -695,4 +695,389 @@ padding: 10px 25px 10px 25px;
 
 
 
+.text p{
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 10px;
+    line-height: 1.8;
+    /* border: 1px solid white; */
+    font-size: 13px;
+
 }
+
+
+
+
+.box form{
+    /* width: fit-content; */
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 45px 51px 30px;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+}
+
+@media only screen and (max-width:420px){
+
+    .text h1{
+        font-size: 2.3em;
+        padding: 40px 0px 0px 10px;
+        margin: 0px 0px 0px 0px;
+    }
+    
+
+
+    .box form{
+        /* width: fit-content; */
+        background-color: white;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        margin: 40px 30px 51px 30px;
+        padding: 10px;
+        border-radius: 15px;
+    
+    }
+
+    
+.box .check {
+    display:flex;
+    flex-direction: row;
+    }
+    .box .check input {
+    
+    font-size: 3em;
+    padding: 30px;
+    margin: -40px 0px 0px 0px ;
+    
+    
+    }
+    .box .check label{
+    margin: -20px 0px 0px 0px ;
+    padding: 10px;
+    font-size: 0.8em;
+
+    } 
+    
+    .box button{
+    width: fit-content;
+    margin: 10px 0px 10px 20px ;
+    margin: auto;
+    background-color: rgb(2, 2, 2);
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+    border-style: none;
+    font-weight: bolder;
+    border-radius: 20px;   
+    cursor: pointer;
+    padding: 10px 25px 10px 25px; 
+    
+    }
+
+
+
+    .fourmenu{
+
+        width: auto;
+        /* border: 2px solid black; */
+        background-color: rgb(194, 236, 226);
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 50px;
+        /* text-align: center; */
+        justify-content: space-between;
+    
+    }
+    
+    .fourmenu div{
+        width: auto;
+        height: auto;
+        margin: 40px 0px 20px 0px;   
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .fourmenu div h3 + p{
+        padding: 20px 0px 10px 0px;
+    
+    }
+    .fourmenu div p{
+        line-height: 1.6;
+        text-align:justify;
+        font-size: 0.8em ;
+    }
+    
+
+}
+
+
+
+
+@media only screen and (max-width:396px){
+
+    .secondmenu nav ul{
+        background-color:white;
+          width:auto ;
+          padding: 0px;
+          margin: 0px 10px 0px 40px ;
+          font-size: 0.8em;
+          /* padding-right: 10px; */
+          display: flex;
+          flex-direction: row;
+          /* flex-wrap: wrap; */
+          /* gap: 10px; */
+          justify-content: flex-start;
+      
+      }
+      
+      .secondmenu nav ul li{
+         padding: 10px;
+         padding-right: 10px;
+      }
+
+
+      
+    .text h1{
+        font-size: 2em;
+        padding: 40px 0px 0px 10px;
+        margin: 0px 0px 0px 0px;
+    }
+      
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width:390px){
+
+    
+    .secondmenu nav ul{
+        background-color:white;
+          width:auto ;
+          padding: 0px;
+          margin: 0px 10px 0px 30px ;
+          font-size: 0.8em;
+          /* padding-right: 10px; */
+          display: flex;
+          flex-direction: row;
+          /* flex-wrap: wrap; */
+          /* gap: 10px; */
+          justify-content: flex-start;
+      
+      }
+    .text{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        padding-top: 0px;
+        margin: 0px 0px 0px 20px ;
+    }
+    .text h1{
+        font-size: 2em;
+        padding: 40px 0px 0px 10px;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    
+    
+    .text p{
+        margin: 10px 10px 0px 0px;
+        padding: 10px 0px 0px 10px;
+        line-height: 1.8;
+        /* border: 1px solid white; */
+        font-size: 12px;
+    
+    }
+
+
+
+    
+    .box .check {
+        display:flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+        }
+        .box .check input {
+        
+        font-size: 0em;
+        padding: 30px;
+        margin: -20px 0px 0px 0px ;
+        
+        
+        }
+        .box .check label{
+        margin: -0px 0px 0px 0px ;
+        padding: 10px;
+        font-size: 0.7em;
+    
+        } 
+        
+        .box button{
+        width: fit-content;
+        margin: 10px 0px 10px 20px ;
+        margin: auto;
+        background-color: rgb(2, 2, 2);
+        padding: 15px;
+        color: white;
+        font-size: 16px;
+        border-style: none;
+        font-weight: bolder;
+        border-radius: 20px;   
+        cursor: pointer;
+        padding: 10px 25px 10px 25px; 
+        
+        }
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:376px){
+
+    .secondmenu nav ul{
+        background-color:white;
+          width:auto ;
+          padding: 0px;
+          margin: 0px 10px 0px 10px ;
+          font-size: 0.8em;
+          /* padding-right: 10px; */
+          display: flex;
+          flex-direction: row;
+          /* flex-wrap: wrap; */
+          /* gap: 10px; */
+          justify-content: flex-start;
+      
+      }
+
+
+      .fourmenu{
+
+        width: auto;
+        /* border: 2px solid black; */
+        background-color: rgb(194, 236, 226);
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 50px;
+        /* text-align: center; */
+        justify-content: space-between;
+    
+    }
+    
+
+
+    
+    .text{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        padding-top: 0px;
+        margin: 0px 0px 0px 10px ;
+    }
+    .text h1{
+        font-size: 2em;
+        padding: 30px 0px 0px 10px;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    
+    
+    .text p{
+        margin: 10px 10px 0px 0px;
+        padding: 10px 0px 0px 10px;
+        line-height: 1.8;
+        /* border: 1px solid white; */
+        font-size: 12px;
+    
+    }
+    .fourmenu div{
+        width: auto;
+        height: auto;
+        margin: 40px 0px 20px 0px;   
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .fourmenu div h3 + p{
+        padding: 10px 0px 10px 0px;
+    
+    }
+
+    .fourmenu h3{
+        font-size: em;
+    }
+
+
+    h2{
+        font-size: 1.2em;
+    }
+    .fourmenu div p{
+        line-height: 1.6;
+        text-align:justify;
+        font-size: 0.7em ;
+    }
+    
+
+}
+
+    @media only screen and (max-width:356px){
+
+
+
+        .secondmenu nav ul{
+            background-color:white;
+              width:auto ;
+              padding: 0px;
+              margin: 0px 0px 0px 10px ;
+              font-size: 0.8em;
+              /* padding-right: 10px; */
+              display: flex;
+              flex-direction: row;
+              /* flex-wrap: wrap; */
+              /* gap: 10px; */
+              justify-content: flex-start;
+          
+          }
+
+        .text p{
+            margin: 10px 5px 0px 0px;
+            padding: 10px 0px 0px 10px;
+            line-height: 1.8;
+            /* border: 1px solid white; */
+            font-size: 12px;
+        
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+    
